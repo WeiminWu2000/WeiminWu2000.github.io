@@ -144,8 +144,7 @@
     "image": "assets/papers/paper-09.png",
     "caption": "In-context gradient descent: one gradient descent step represented in a transformer.",
     "imageAlt": "In-context gradient descent: one gradient descent step represented in a transformer.",
-    "imageSource": "https://arxiv.org/pdf/2411.16549",
-    "code": "https://github.com/MAGICS-LAB/icdl"
+    "imageSource": "https://arxiv.org/pdf/2411.16549"
   },
   {
     "id": 10,
