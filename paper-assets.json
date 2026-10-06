@@ -1,0 +1,160 @@
+[
+  {
+    "index": 0,
+    "title": "Uncovering the Genomic Manifold via Scalable Learning from the Global Microbiome",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635558v2.abstract",
+    "status": 429,
+    "asset": "assets/papers/paper-00.jpg",
+    "sourceImage": "https://raw.githubusercontent.com/WeiminWu2000/genomeocean/main/figures/Overview.jpeg",
+    "caption": "GenomeOcean overview from the author\u2019s project repository."
+  },
+  {
+    "index": 1,
+    "title": "DNABERT-S: LEARNING SPECIES-AWARE DNA EMBEDDING WITH GENOME FOUNDATION MODELS",
+    "url": "https://arxiv.org/abs/2402.08777",
+    "status": 200,
+    "caption": "Figure 2: Overview of DNABERT-S training process.",
+    "asset": "assets/papers/paper-01.png",
+    "sourceImage": "https://arxiv.org/html/2402.08777v3/workflow.png"
+  },
+  {
+    "index": 2,
+    "title": "Genome-Factory: An Integrated Library for Tuning, Deploying, and Interpreting Genomic Models",
+    "url": "https://www.arxiv.org/abs/2509.12266",
+    "status": 200,
+    "caption": "Figure 1 : Overview of G enome -F actory . The framework consists of six components. Genome Collector acquires genomic sequences from public repositories and performs preprocessing (e.g., GC normalization). Model Loader supports major genomic models (e.g., HyenaDNA, DNABERT-2, Caduceus, Nucleotide Transformer, EVO and GenomeOcean) and their tokenizers. Model Trainer configures workflows, adapts models to classification or regression tasks, and executes training with full fine-tuning or parameter-efficient methods (LoRA, adapters). Inference Engine enables embedding extraction and sequence generation. Benchmarker provides standard benchmarks and allows integration of custom tasks. Biological Interpreter enhances interpretability through sparse auto-encoders.",
+    "asset": "assets/papers/paper-02.svg",
+    "sourceImage": "https://arxiv.org/html/2509.12266v2/overview.svg"
+  },
+  {
+    "index": 3,
+    "title": "Sci2Pol: Evaluating and Fine-tuning LLMs on Scientific-to-Policy Brief Generation",
+    "url": "https://arxiv.org/abs/2509.21493",
+    "status": 200,
+    "caption": "(a) Sci2Pol-Taxonomy",
+    "asset": "assets/papers/paper-03.svg",
+    "sourceImage": "https://arxiv.org/html/2509.21493v2/Sci2Pol.svg"
+  },
+  {
+    "index": 4,
+    "title": "D-DOIT: Training-free Adaptation of Discrete Diffusion via Doob's h-Transform",
+    "url": "https://arxiv.org/abs/2610.04938",
+    "status": 200,
+    "caption": "Figure 1: Overview of D-DOIT. Left: Standard masked diffusion unmasks positions independently at each reverse step ( 2.1 ); it is cheap but reward-unaware. Right: One guided step approximately tilts the reverse kernel: it draws M = 3 M{=}3 candidates from a tempered proposal ( 3.6 ), completes and scores them with the prediction head and reward to obtain proxy h h -values, and selects the next state with sharpened h h -weights ( 3.7 ). Bottom: Optional best-of- K K refinement duplicates each trajectory into K = 4 K{=}4 copies after the split and keeps the highest-reward suffix ( 3.9 ), sharing prefix computation. Revealed tokens stay fixed; the practical sampler does not inherit the exact-target guarantee.",
+    "asset": "assets/papers/paper-04.png",
+    "sourceImage": "https://arxiv.org/html/2610.04938v1/fig_ddoit_overview.png"
+  },
+  {
+    "index": 5,
+    "title": "POLO: Preference-Guided Multi-Turn Reinforcement Learning for Lead Optimization",
+    "url": "https://arxiv.org/html/2509.21737v1",
+    "status": 200,
+    "caption": "Figure 1: Comparison of molecular optimization paradigms. Left: Traditional approaches include genetic algorithms that rely on random mutation and crossover operators, and single-turn RL that optimizes based on isolated tuples with sparse feedback. Center: POLO employs Preference-Guided Multi-turn Policy Optimization, where an LLM agent iteratively refines molecules through T-turn rollouts. Right: Performance on \ud835\ude99\ud835\ude95\ud835\ude98\ud835\ude90\ud835\ude7f \\mathop{\\mathtt{plogP}}\\limits task demonstrates POLO\u2019s superior sample efficiency. Our PGPO approach (red) rapidly achieves a near-perfect success rate, while single-turn RL (blue) plateaus early and genetic algorithms (brown) converge slowly, highlighting the advantage of learning from complete optimization trajectories.",
+    "asset": "assets/papers/paper-05.png",
+    "sourceImage": "https://arxiv.org/html/2509.21737v1/method_comparison_v3.png"
+  },
+  {
+    "index": 6,
+    "title": "DiMOS: Doob-Guided Inference-Time Multi-Objective Search for Scientific Design",
+    "url": "https://arxiv.org/abs/2610.05808",
+    "status": 200,
+    "caption": "Figure 2: Overview of DiMOS multi-objective design with a frozen prior.",
+    "asset": "assets/papers/paper-06.png",
+    "sourceImage": "https://arxiv.org/html/2610.05808v1/DiMOS_main.png"
+  },
+  {
+    "index": 7,
+    "title": "Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics",
+    "url": "https://arxiv.org/abs/2602.02093",
+    "status": 200,
+    "caption": "Figure 1 : Overview of the Cell-JEPA Pipeline. Raw biological cells undergo single-cell RNA sequencing to generate high-dimensional, sparse gene expression profiles.\nThe profiles are passed through a joint embedding architecture, where a student encoder receives masked inputs and predicts the stable latent representations produced by a teacher encoder from unmasked data. This predictive alignment learns a robust biological manifold that enables downstream tasks, including cell-type clustering and perturbation response prediction.",
+    "asset": "assets/papers/paper-07.png",
+    "sourceImage": "https://arxiv.org/html/2602.02093v1/overview.png"
+  },
+  {
+    "index": 8,
+    "title": "Discrete Flow Matching Policy Optimization",
+    "url": "https://arxiv.org/abs/2604.06491",
+    "status": 200,
+    "statusNote": "No labeled figures in the available paper; includes algorithms and result tables.",
+    "asset": "assets/papers/paper-08.png",
+    "sourceImage": "https://arxiv.org/pdf/2604.06491",
+    "page": 8,
+    "caption": "Algorithm 1: DoMinO-REINFORCE (paper excerpt; the paper contains no labeled figures).",
+    "assetType": "algorithm-excerpt"
+  },
+  {
+    "index": 9,
+    "title": "In-Context Deep Learning via Transformer Models",
+    "url": "https://arxiv.org/abs/2411.16549",
+    "status": 200,
+    "caption": "Figure 1 : One Step In-Context Gradient Descent (ICGD) with ( 2 \u200b N + 4 ) (2N+4) -layer Transformer. This illustration presents the backpropagation process within an ICGD in a transformer model with 2 \u200b N + 4 2N+4 layers.\nIt simulates a single gradient descent step for an N N -layer neural network, trained with loss \u2112 n \\mathcal{L}_{n} and datasets { ( x i , y i ) } i \u2208 [ n ] \\{(x_{i},y_{i})\\}_{i\\in[n]} .\nThe term p i \u200b ( j ) p_{i}(j) denotes the output after the j j -th layer for input x i x_{i} .\nThe terms r i \u2032 \u200b ( j ) r^{\\prime}_{i}(j) , u \u2061 ( p i \u200b ( N ) , y i ) u(p_{i}(N),y_{i}) , and s i \u200b ( j ) s_{i}(j) are intermediate gradient terms of gradient \u2207 \u2112 n \u200b ( w ) \\nabla\\mathcal{L}_{n}(w) from the chain rule.\nThe expression Proj \ud835\udcb2 ( w \u2212 \u03b7 \u2207 \u2112 n ( w ) ) {\\rm Proj}_{\\mathcal{W}}(w-\\eta\\nabla\\mathcal{L}_{n}(w)) shows one gradient descent step.\nHere, \u03b7 \\eta is the learning rate, and \ud835\udcb2 \\mathcal{W} denotes the bounded domain for the N N -layer NN parameters w w .",
+    "asset": "assets/papers/paper-09.png",
+    "sourceImage": "https://arxiv.org/pdf/2411.16549",
+    "page": 11
+  },
+  {
+    "index": 10,
+    "title": "In-Context Learning as Conditioned Associative Memory Retrieval",
+    "url": "https://icml.cc/virtual/2025/poster/44826",
+    "status": 200,
+    "asset": "assets/papers/paper-10.png",
+    "sourceImage": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/wu25k/wu25k.pdf",
+    "page": 7,
+    "caption": "Figure 1: Behaviors of In-Context Learning in Linear Regression."
+  },
+  {
+    "index": 11,
+    "title": "On Statistical Rates of Conditional Diffusion Transformers: Approximation, Estimation and Minimax Optimality",
+    "url": "https://arxiv.org/abs/2411.17522",
+    "status": 200,
+    "caption": "Figure 1: Conditional DiT Network Architecture. The architecture consists of a reshape layer R \u2061 ( \u22c5 ) R(\\cdot) , a reversed reshape layer R \u2212 1 \u200b ( \u22c5 ) R^{-1}(\\cdot) , and the embedding layers for label y y and timestep t t .\nThe embeddings of y y and t t are concatenated with input sequences and then processed by a transformer network f \ud835\udcaf \u2208 \ud835\udcaf h , s , r f_{\\mathcal{T}}\\in\\mathcal{T}^{{\\color[rgb]{0,0,0}h,s,r}} .",
+    "asset": "assets/papers/paper-11.png",
+    "sourceImage": "https://arxiv.org/pdf/2411.17522",
+    "page": 6
+  },
+  {
+    "index": 12,
+    "title": "On Statistical Rates and Provably Efficient Criteria of Latent Diffusion Transformers (DiTs)",
+    "url": "https://arxiv.org/abs/2407.01079",
+    "status": 200,
+    "caption": "Figure 1 : Overview of DiT Score Network Architecture s W \u200b ( \u22c5 , t ) s_{W}(\\cdot,t) . W B T W_{B}^{T} denotes the linear layer from the input data space to the linear latent space. f \u2061 ( \u22c5 ) = R \u2212 1 \u2218 f \ud835\udcaf \u2218 R \u2061 ( \u22c5 ) f(\\cdot)={R^{-1}\\circ f_{\\mathcal{T}}\\circ R}(\\cdot) denotes the transformer network f \ud835\udcaf \u200b ( \u22c5 ) f_{\\mathcal{T}}(\\cdot) with reshaping layer R \u2061 ( \u22c5 ) R(\\cdot) , where f \ud835\udcaf \u200b ( \u22c5 ) \u2208 \ud835\udcaf p r , m , l f_{\\mathcal{T}}(\\cdot)\\in\\mathcal{T}_{p}^{r,m,l} . W B W_{B} denotes the linear layer from the linear latent space to the input data space. \u03c3 \u2061 ( t ) \\sigma(t) denote the variance of the conditional distribution P \u2061 ( x t \u2223 x 0 ) P(x_{t}\\mid x_{0}) .",
+    "asset": "assets/papers/paper-12.png",
+    "sourceImage": "https://arxiv.org/pdf/2407.01079",
+    "page": 5
+  },
+  {
+    "index": 13,
+    "title": "Universal Approximation with Softmax Attention",
+    "url": "https://arxiv.org/abs/2504.15956",
+    "status": 200,
+    "caption": "Figure 1: Visualization of Proposed Interpolation Technique ( Theorem 3.1 ). Every step in the figure corresponds to a step in the proof sketch in Section 3.1 .\nOur goal is to use softmax attention mechanism to approximate n n truncated linear models Range [ a , b ] \u200b ( w i \u22a4 \u200b x i + t i ) \\mathrm{Range}_{[a,b]}(w_{i}^{\\top}x_{i}+t_{i}) for i \u2208 [ n ] i\\in[n] , and hence establish universality.\nTo achieve this,\nwe first divide the output range [ a , b ] [a,b] into p p interpolation points, and encode them into the value matrix V V .\nThen, we treat the attention score Softmax \u2061 ( K \u22a4 \u200b Q ) {\\rm{Softmax}}(K^{\\top}Q) as a selector to select an interpolation point closest to the desired output from V V .\nSpecifically, each column of Softmax ( K \u22a4 Q ) : , i {\\rm{Softmax}}(K^{\\top}Q)_{:,i} (for i \u2208 [ n ] i\\in[n] ) approximates an one-hot vector e k i e_{k_{i}} , where k i k_{i} is the index of closest interpolation point to Range [ a , b ] \u200b ( w i \u22a4 \u200b x i + t i ) \\mathrm{Range}_{[a,b]}(w_{i}^{\\top}x_{i}+t_{i}) .\nHence, when multiplying with V V , V \u22c5 Softmax \u2061 ( K \u22a4 \u200b Q ) V\\cdot{\\rm{Softmax}}(K^{\\top}Q) selects out the closest interpolation points for every truncated linear model from V V .\nThe same color across matrices indicates the same interpolation point chosen by the softmax function.\nThe color purple indicates how G G maps each interpolation point index k k into the desired row index k ~ \\widetilde{k} .\nThe grey dashed lines highlight that the position of L ~ k \\widetilde{L}_{k} in the value matrix and the output matrix are the same, indicating each closest interpolation point of i i -th token is placed correctly at the output.\nThe blue dashed line illustrates the interpolation error,\nwhile the red dashed line shows the softmax approximation error.\nFor simplicity, we highlight the error only for a token x i x_{i} .",
+    "asset": "assets/papers/paper-13.svg",
+    "sourceImage": "https://arxiv.org/html/2504.15956v2/universal_iclr_rebuttal_v1.svg"
+  },
+  {
+    "index": 14,
+    "title": "On Structured State-Space Duality",
+    "url": "https://arxiv.org/abs/2510.04944",
+    "status": 200,
+    "caption": "Figure 1: M j , i = c j \u22a4 A j \u22ef A i + 1 b i M_{j,i}=c_{j}^{\\top}A^{j}\\cdots A^{i+1}b_{i}",
+    "asset": "assets/papers/paper-14.svg",
+    "sourceImage": "https://arxiv.org/html/2510.04944v2/diagonal_SSD.svg"
+  },
+  {
+    "index": 15,
+    "title": "Learning Manifold Data with Flow Matching",
+    "url": "https://icml.cc/virtual/2026/poster/65824",
+    "status": 200,
+    "statusNote": "OpenReview PDF blocked by browser verification; figure not downloaded."
+  },
+  {
+    "index": 16,
+    "title": "Instance-aware Model Ensemble With Distillation For Unsupervised Domain Adaptation",
+    "url": "https://arxiv.org/abs/2211.08106",
+    "status": 200,
+    "caption": "Fig. 1: (a) and (b) demonstrate the results of JAN and CDANs with random seed 5 from Webcam to Amazon of the dataset Office-31. In (a), red points are the instances that JAN correctly classifies while CDANs not, green and blue points present the correctly and wrongly classified instances by JAN. In (b), red points are the instances that CDANs correctly classifies while JAN not, green and blue points present the correctly and wrongly classified instances by CDANs. (c) and (d) use model from averaging ensemble and our proposed ensemble method respectively, based on the instances that only one of two models (JAN and CDANs) can classify correctly. Green and red points denote the instances that the model classifies correctly and wrongly. The percentage of green points in (c) and (d) is 63 % 63\\% and 64 % 64\\% respectively.",
+    "asset": "assets/papers/paper-16.png",
+    "sourceImage": "https://arxiv.org/html/2211.08106v1/d1.png"
+  }
+]
