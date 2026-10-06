@@ -13,3 +13,5 @@ Content was adapted from https://weiminwu.academicwebsite.com/ and its Publicati
 One publication, *Learning Manifold Data with Flow Matching*, currently has no figure because the publisher blocked automated access. *Discrete Flow Matching Policy Optimization* uses a clearly labeled Algorithm 1 excerpt because the available paper contains no labeled figures.
 
 Hosting identity and static directory are recorded in `.openai/hosting.json`.
+
+Public URL: https://weimin-wu-research.weiminxxxx.chatgpt.site
