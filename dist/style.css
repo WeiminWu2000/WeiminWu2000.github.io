@@ -15,3 +15,11 @@
 .socials .cv-link{font-weight:700;color:var(--purple-dark)}
 
 .eyebrow,.section-index,.highlight-date,.grant-label,.research-chain small,.paper-venue,.small-tag,.subheading{letter-spacing:.25px}.qia-name{font-size:16px;font-weight:600;color:var(--purple);margin:0 0 14px}.qia-section>p:not(.qia-name){font-size:13px;line-height:1.8;color:var(--muted)}
+
+/* Clearly separated experience and funding blocks. */
+.intro{padding-bottom:32px;border-bottom:1px solid var(--line)}
+.career-blocks{display:grid;gap:16px}.career-block{padding:25px 28px;border:1px solid #ddd5e6;border-left:5px solid var(--purple);border-radius:7px;background:#f5f1fa}.nvidia-block{background:#f1f6ed;border-color:#d9e5ce;border-left-color:#709f36}.quest-block{background:#eef5f2;border-color:#d3e4dd;border-left-color:#538773}.career-block-heading{display:flex;align-items:center;justify-content:space-between;gap:20px}.block-label{margin:0 0 7px;color:#65576f;font-size:12px;font-weight:600;letter-spacing:0}.career-block h3{margin:0;font-family:Manrope,sans-serif;font-size:25px;font-weight:750;line-height:1.3;letter-spacing:-.5px}.block-date{font-size:12px;color:#4d4855;white-space:nowrap;padding:5px 12px;background:#ffffffb0;border:1px solid #0000000c;border-radius:5px}.block-detail{font-size:14px;line-height:1.65;color:#635c6c;margin:14px 0 0}.funding-block{background:#f0e8f8;border-color:#d9c7e9;border-left-color:var(--purple)}.funding-block-content{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:28px;margin-top:11px}.funding-block h3{font-size:39px;letter-spacing:-1.5px;color:var(--purple-dark)}.funding-title{font-size:14px;font-weight:650;margin:0;color:#41324e}.funding-block .block-detail{font-size:12px;margin:4px 0}.grant-reference{font-size:11px;color:#776286;margin:6px 0 0}
+@media(max-width:720px){.career-block{padding:23px 20px}.career-block-heading{align-items:flex-start;flex-direction:column;gap:13px}.career-block h3{font-size:24px}.block-date{font-size:12px}.funding-block-content{grid-template-columns:1fr;gap:16px}.funding-block h3{font-size:38px}.funding-title{font-size:15px}.grant-reference{overflow-wrap:anywhere}.intro{padding-bottom:25px}}
+/* Larger, easier-to-read biography. */
+.bio{font-size:17px;line-height:1.85;color:#5d5667}.bio p{margin-bottom:20px}
+@media(max-width:720px){.bio{font-size:16px;line-height:1.8}}
