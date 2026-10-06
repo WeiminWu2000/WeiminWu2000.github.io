@@ -1,10 +1,10 @@
 [
   {
     "title": "Uncovering the Genomic Manifold via Scalable Learning from the Global Microbiome",
-    "authors": "Weimin Wu*, Zhihan Zhou*, \u2026, Yaping Liu, \u2026, Han Liu, Zhong Wang",
+    "authors": "Weimin Wu*, Zhihan Zhou*, …, Yaping Liu, …, Han Liu, Zhong Wang",
     "url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635558v2.abstract",
     "year": "2025",
-    "venue": "Preprint \u00b7 GenomeOcean",
+    "venue": "Preprint · GenomeOcean",
     "id": 0,
     "category": "biology",
     "featured": true,
@@ -20,7 +20,7 @@
     "authors": "Zhihan Zhou*, Weimin Wu* , Harrison Ho, Jiayi Wang, Lizhen Shi, Ramana V Davuluri, Zhong Wang, Han Liu",
     "url": "https://arxiv.org/abs/2402.08777",
     "year": "2025",
-    "venue": "Bioinformatics \u00b7 ISMB 2025 \u00b7 Oral",
+    "venue": "Bioinformatics · ISMB 2025 · Oral",
     "category": "biology",
     "featured": true,
     "image": "assets/papers/paper-01.png",
@@ -80,7 +80,7 @@
     "authors": "Ziqing Wang, Yibo Wen, William Pattie, Xiao Luo, Weimin Wu , Jerry Yao-Chieh Hu, Abhishek Pandey, Han Liu, Kaize Ding",
     "url": "https://arxiv.org/html/2509.21737v1",
     "year": "2026",
-    "venue": "KDD 2026 \u00b7 Oral",
+    "venue": "KDD 2026 · Oral",
     "category": "biology",
     "featured": false,
     "image": "assets/papers/paper-05.png",
@@ -227,7 +227,11 @@
     "year": "2026",
     "venue": "ICML 2026",
     "category": "theory",
-    "featured": false
+    "featured": false,
+    "image": "assets/papers/paper-15.png",
+    "caption": "Figure 1. Flow-matching velocity decomposes into motion along the data manifold and an orthogonal component toward it.",
+    "imageAlt": "Velocity decomposition diagram showing a curved flow path and its tangent and orthogonal components on a two-dimensional data manifold.",
+    "imageSource": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/pi26a/pi26a.pdf#page=5"
   },
   {
     "id": 16,
