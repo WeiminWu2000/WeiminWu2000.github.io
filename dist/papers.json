@@ -26,7 +26,8 @@
     "image": "assets/papers/paper-01.png",
     "caption": "DNABERT-S: overview of the training process.",
     "imageAlt": "DNABERT-S: overview of the training process.",
-    "imageSource": "https://arxiv.org/html/2402.08777v3/workflow.png"
+    "imageSource": "https://arxiv.org/html/2402.08777v3/workflow.png",
+    "code": "https://github.com/MAGICS-LAB/DNABERT_S"
   },
   {
     "id": 2,
@@ -40,7 +41,8 @@
     "image": "assets/papers/paper-02.svg",
     "caption": "Genome-Factory: six components for collecting data, loading and training models, inference, benchmarking, and interpretation.",
     "imageAlt": "Genome-Factory: six components for collecting data, loading and training models, inference, benchmarking, and interpretation.",
-    "imageSource": "https://arxiv.org/html/2509.12266v2/overview.svg"
+    "imageSource": "https://arxiv.org/html/2509.12266v2/overview.svg",
+    "code": "https://github.com/WeiminWu2000/Genome_Factory"
   },
   {
     "id": 3,
@@ -54,7 +56,8 @@
     "image": "assets/papers/paper-03.svg",
     "caption": "Sci2Pol: taxonomy of scientific-to-policy brief generation.",
     "imageAlt": "Sci2Pol: taxonomy of scientific-to-policy brief generation.",
-    "imageSource": "https://arxiv.org/html/2509.21493v2/Sci2Pol.svg"
+    "imageSource": "https://arxiv.org/html/2509.21493v2/Sci2Pol.svg",
+    "code": "https://github.com/WeiminWu2000/Sci2Pol"
   },
   {
     "id": 4,
@@ -68,7 +71,8 @@
     "image": "assets/papers/paper-04.png",
     "caption": "D-DOIT: training-free guidance of discrete diffusion using reward-informed candidate selection.",
     "imageAlt": "D-DOIT: training-free guidance of discrete diffusion using reward-informed candidate selection.",
-    "imageSource": "https://arxiv.org/html/2610.04938v1/fig_ddoit_overview.png"
+    "imageSource": "https://arxiv.org/html/2610.04938v1/fig_ddoit_overview.png",
+    "code": "https://github.com/WeiminWu2000/D-DOIT"
   },
   {
     "id": 5,
@@ -82,7 +86,8 @@
     "image": "assets/papers/paper-05.png",
     "caption": "POLO: a comparison of molecular optimization approaches.",
     "imageAlt": "POLO: a comparison of molecular optimization approaches.",
-    "imageSource": "https://arxiv.org/html/2509.21737v1/method_comparison_v3.png"
+    "imageSource": "https://arxiv.org/html/2509.21737v1/method_comparison_v3.png",
+    "code": "https://github.com/REAL-Lab-NU/POLO"
   },
   {
     "id": 6,
@@ -139,7 +144,8 @@
     "image": "assets/papers/paper-09.png",
     "caption": "In-context gradient descent: one gradient descent step represented in a transformer.",
     "imageAlt": "In-context gradient descent: one gradient descent step represented in a transformer.",
-    "imageSource": "https://arxiv.org/pdf/2411.16549"
+    "imageSource": "https://arxiv.org/pdf/2411.16549",
+    "code": "https://github.com/MAGICS-LAB/icdl"
   },
   {
     "id": 10,
@@ -195,7 +201,8 @@
     "image": "assets/papers/paper-13.svg",
     "caption": "Softmax attention: visualization of the proposed interpolation technique.",
     "imageAlt": "Softmax attention: visualization of the proposed interpolation technique.",
-    "imageSource": "https://arxiv.org/html/2504.15956v2/universal_iclr_rebuttal_v1.svg"
+    "imageSource": "https://arxiv.org/html/2504.15956v2/universal_iclr_rebuttal_v1.svg",
+    "code": "https://github.com/MAGICS-LAB/UAP_Attention"
   },
   {
     "id": 14,
@@ -209,7 +216,8 @@
     "image": "assets/papers/paper-14.svg",
     "caption": "Structured state-space duality: a visualization of the state-space matrix structure.",
     "imageAlt": "Structured state-space duality: a visualization of the state-space matrix structure.",
-    "imageSource": "https://arxiv.org/html/2510.04944v2/diagonal_SSD.svg"
+    "imageSource": "https://arxiv.org/html/2510.04944v2/diagonal_SSD.svg",
+    "code": "https://github.com/MAGICS-LAB/state_space_duality"
   },
   {
     "id": 15,

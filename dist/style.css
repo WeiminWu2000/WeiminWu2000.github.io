@@ -23,3 +23,8 @@
 /* Larger, easier-to-read biography. */
 .bio{font-size:17px;line-height:1.85;color:#5d5667}.bio p{margin-bottom:20px}
 @media(max-width:720px){.bio{font-size:16px;line-height:1.8}}
+
+.qia-page{max-width:850px;margin:65px auto;padding:0 28px;font-size:16px;line-height:1.85}.qia-page h1{font-family:var(--serif);font-size:48px;font-weight:500;line-height:1.2;letter-spacing:-1px}.qia-intro{font-size:21px;color:var(--purple)}.qia-page h2{font-size:25px;margin:42px 0 18px}.qia-activities{display:grid;gap:15px}.qia-activities article{padding:20px 24px;background:var(--pale);border:1px solid var(--line);border-radius:6px}.qia-activities h3{font-size:18px;margin:0 0 8px}.qia-activities p{margin:0;color:var(--muted)}.qia-page footer{margin-top:50px}@media(max-width:720px){.qia-page{margin:35px auto;padding:0 23px}.qia-page h1{font-size:35px}.qia-intro{font-size:18px}}
+
+.employer-logo-heading{line-height:1}.employer-logo{display:block;object-fit:contain;object-position:left center;max-width:100%}.nvidia-logo{width:176px;height:53px}.quest-logo{width:188px;height:60px}.career-block .block-label{margin-bottom:12px}
+.quest-logo{width:210px;height:82px;object-fit:cover;object-position:center;border-radius:4px}

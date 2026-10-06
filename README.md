@@ -27,3 +27,5 @@ Open any file in the repository, click the pencil icon, make changes, and commit
 For local edits, commit your changes and run `git push github HEAD:main` from this folder. The `github` remote uses your existing SSH authentication. GitHub Pages deployment adjusts canonical and social-image URLs for the GitHub domain without changing the Sites copy.
 
 The ChatGPT Sites URL is a separate deployment; GitHub commits update GitHub Pages automatically, while updates to the Sites URL must be published separately through Sites.
+
+The QIA detail page is `dist/qia.html`. Employer logos were sourced from the official NVIDIA and Quest Diagnostics website headers. Publication code links point to verified public repositories linked from papers or their authors/labs.
