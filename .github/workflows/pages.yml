@@ -1,0 +1,37 @@
+name: Publish academic website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Set GitHub Pages metadata
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          page = Path('dist/index.html')
+          page.write_text(page.read_text().replace('https://weimin-wu-research.weiminxxxx.chatgpt.site', 'https://weiminwu2000.github.io'))
+          PY
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4

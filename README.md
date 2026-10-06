@@ -15,3 +15,15 @@ One publication, *Learning Manifold Data with Flow Matching*, currently has no f
 Hosting identity and static directory are recorded in `.openai/hosting.json`.
 
 Public URL: https://weimin-wu-research.weiminxxxx.chatgpt.site
+
+## Edit and publish through GitHub
+
+Repository: https://github.com/WeiminWu2000/WeiminWu2000.github.io
+
+GitHub Pages URL: https://weiminwu2000.github.io/
+
+Open any file in the repository, click the pencil icon, make changes, and commit to `main`. The **Publish academic website** GitHub Actions workflow automatically publishes the `dist/` folder. Check the repository's **Actions** tab for deployment progress.
+
+For local edits, commit your changes and run `git push github HEAD:main` from this folder. The `github` remote uses your existing SSH authentication. GitHub Pages deployment adjusts canonical and social-image URLs for the GitHub domain without changing the Sites copy.
+
+The ChatGPT Sites URL is a separate deployment; GitHub commits update GitHub Pages automatically, while updates to the Sites URL must be published separately through Sites.
