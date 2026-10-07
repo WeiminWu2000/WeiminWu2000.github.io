@@ -58,3 +58,6 @@ section{margin-bottom:38px}.section-heading{margin-bottom:16px}.section-heading 
 @media(max-width:720px){.bio{font-size:18px;line-height:1.7}.career-blocks{grid-template-columns:1fr}.career-block{padding:16px 18px}.career-block-heading{flex-direction:row;align-items:center;justify-content:space-between;gap:10px}.funding-block{grid-column:auto}.funding-block-content{display:block}.funding-block h3{margin-bottom:10px}.intern-title{margin-top:10px}.research-pillar h3{font-size:18px}}
 
 .venture-title{font-family:Manrope,sans-serif;font-size:21px;line-height:1.4;margin:0 0 10px;color:var(--purple-dark)}.qia-section strong{font-weight:700;color:var(--ink)}
+
+/* Give the Quest logo more presence within its internship card. */
+.career-block .quest-logo{width:225px;height:70px;max-width:100%;object-fit:cover;mix-blend-mode:multiply}@media(max-width:720px){.career-block .quest-logo{width:200px;height:64px}}
