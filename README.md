@@ -29,3 +29,7 @@ For local edits, commit your changes and run `git push github HEAD:main` from th
 The ChatGPT Sites URL is a separate deployment; GitHub commits update GitHub Pages automatically, while updates to the Sites URL must be published separately through Sites.
 
 The QIA detail page is `dist/qia.html`. Employer logos were sourced from the official NVIDIA and Quest Diagnostics website headers. Publication code links point to verified public repositories linked from papers or their authors/labs.
+
+## Research blog
+
+The homepage Blog section and navigation link lead to the article card and `dist/blog/` archive. Edit the BioInterpret article in `dist/blog/biointerpret.html`; its supplied figures and supporting assets live in `dist/blog/assets/`. Shared blog styling is in `dist/blog/blog.css`. Keep the article free of paper and project-site links. Homepage additions are scoped to the Blog navigation entry, section, and card styles.

@@ -1,0 +1,44 @@
+{
+  "scope": "Post-hoc numerical sensitivity of all retained audit contrasts; fixed BF16-trained heads, fixed edits, FP32 decoder and pooling, TF32 disabled. Does not repeat training, planning or confirmation.",
+  "pairs": 37270,
+  "endpoints": 144,
+  "decision_changes": 0,
+  "tasks": [
+    {
+      "task": "promoter",
+      "pairs": 12682,
+      "batch_max_abs_difference": 6.550234288860146e-07,
+      "batch_passed": true,
+      "max_probability_change": 0.11129235289977446,
+      "decision_changes": 0,
+      "max_endpoint_mean_change": 0.00277466256496664,
+      "bf16_supported": 31,
+      "fp32_supported": 31,
+      "changes": []
+    },
+    {
+      "task": "human_enhancers_cohn",
+      "pairs": 12568,
+      "batch_max_abs_difference": 5.859926150986183e-07,
+      "batch_passed": true,
+      "max_probability_change": 0.06822111578481893,
+      "decision_changes": 0,
+      "max_endpoint_mean_change": 0.0008387736301014304,
+      "bf16_supported": 12,
+      "fp32_supported": 12,
+      "changes": []
+    },
+    {
+      "task": "drosophila_enhancers_stark",
+      "pairs": 12020,
+      "batch_max_abs_difference": 1.5309817103514867e-06,
+      "batch_passed": true,
+      "max_probability_change": 0.0602082709491501,
+      "decision_changes": 0,
+      "max_endpoint_mean_change": 0.0004070440369267486,
+      "bf16_supported": 12,
+      "fp32_supported": 12,
+      "changes": []
+    }
+  ]
+}
