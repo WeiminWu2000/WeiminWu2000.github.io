@@ -5,3 +5,5 @@
 .hero{margin-top:38px}.hero img{border-radius:12px}.brand{font-size:15px}
 
 .skip{position:absolute;left:20px;top:-80px;background:#fff;padding:8px 14px;z-index:10}.skip:focus{top:10px}.blog-card img{display:block;height:auto}
+
+.film{scroll-margin-top:24px}.film video{display:block;width:100%;aspect-ratio:16/9;background:#101114;border-radius:12px}.equation{margin:28px 0;padding:20px;text-align:center;background:#f2edf9;border-radius:8px;font-size:clamp(18px,3vw,26px);overflow-x:auto}.method-steps{padding-left:24px}.method-steps li{padding-left:6px;margin:16px 0}caption{text-align:left;font-size:14px;color:var(--muted);padding-bottom:12px}
