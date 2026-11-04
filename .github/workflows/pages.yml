@@ -32,6 +32,27 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      - name: Clear stalled Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PYRECOVER'
+          import os, urllib.request, urllib.error
+          # This superseded deployment remained active after its workflow ended.
+          url = 'https://api.github.com/repos/WeiminWu2000/WeiminWu2000.github.io/pages/deployments/7844ff7e67efef38ee1fac0faeb0d77c02a8432d/cancel'
+          request = urllib.request.Request(url, method='POST', headers={
+              'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+              'Accept': 'application/vnd.github+json',
+              'X-GitHub-Api-Version': '2026-03-10',
+          })
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  print('Stalled deployment cancellation:', response.status)
+          except urllib.error.HTTPError as error:
+              if error.code not in (404, 409, 422):
+                  raise
+              print('Previous deployment no longer cancellable:', error.code)
+          PYRECOVER
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
