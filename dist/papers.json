@@ -90,6 +90,21 @@
     "code": "https://github.com/REAL-Lab-NU/POLO"
   },
   {
+    "id": 17,
+    "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
+    "authors": "Weimin Wu, Han Liu",
+    "url": "https://github.com/WeiminWu2000/SciMARS/blob/main/paper/SciMARS.pdf",
+    "year": "2026",
+    "venue": "Preprint",
+    "category": "biology",
+    "featured": false,
+    "image": "blog/assets/scimars/overview.png",
+    "caption": "SciMARS: role and coordination editors propose and probe revisions to a scientific agent team.",
+    "imageAlt": "SciMARS overview: a multi-agent execution team and an evidence-guided recursive harness adaptation loop.",
+    "imageSource": "https://github.com/WeiminWu2000/SciMARS/blob/main/paper/SciMARS.pdf",
+    "code": "https://github.com/WeiminWu2000/SciMARS"
+  },
+  {
     "id": 6,
     "title": "DiMOS: Doob-Guided Inference-Time Multi-Objective Search for Scientific Design",
     "authors": "Ziqing Wang*, Qijie Zhu*, Weimin Wu* , Zeqi Ye, Minshuo Chen, Han Liu, Kaize Ding",
