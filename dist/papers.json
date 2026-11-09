@@ -98,9 +98,9 @@
     "venue": "Preprint",
     "category": "biology",
     "featured": false,
-    "image": "blog/assets/scimars/overview.png",
-    "caption": "SciMARS: role and coordination editors propose and probe revisions to a scientific agent team.",
-    "imageAlt": "SciMARS overview: a multi-agent execution team and an evidence-guided recursive harness adaptation loop.",
+    "image": "blog/assets/scimars/overview-20261108.png",
+    "caption": "SciMARS adapts roles and coordination. SciMARS + Memory adds a shared evidence graph and independent memory-policy editor.",
+    "imageAlt": "SciMARS overview with a shared evidence graph and separate role, coordination, and memory-policy editors.",
     "imageSource": "https://github.com/WeiminWu2000/SciMARS/blob/main/paper/SciMARS.pdf",
     "code": "https://github.com/WeiminWu2000/SciMARS"
   },
