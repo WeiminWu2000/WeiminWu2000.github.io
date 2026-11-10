@@ -69,3 +69,13 @@
 .mentee-list li{margin:0 0 10px}
 .mentee-name{font-weight:700}.mentee-list span{color:#555}.mentee-paper{font-size:12px;white-space:nowrap}
 @media(max-width:600px){.mentee-list{font-size:13px}.mentee-list li{margin-bottom:12px}}
+
+/* Shared compact rows keep logos, two-line roles, and research topics aligned. */
+.career-block{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:24px 54px 63px auto;gap:8px;padding:16px}
+.career-block-heading{min-height:0;grid-column:1;align-self:start}
+.career-block .employer-logo-heading{height:54px;margin:0;grid-column:1}
+.career-block .intern-title{display:grid;align-content:center;min-height:0;height:63px;margin:0;grid-column:1;font-size:14px;line-height:1.5}
+.career-block .funding-value{font-size:28px}
+.career-block .block-detail{grid-column:1;margin:0;line-height:1.55}
+@media(min-width:601px) and (max-width:1100px){.career-block{padding:12px;grid-template-rows:34px 54px 63px auto}.career-block .intern-title{font-size:13px}.career-block .funding-value{font-size:28px}}
+@media(max-width:600px){.career-block{padding:15px 17px;grid-template-rows:auto 48px auto auto;gap:9px}.career-block .employer-logo-heading{height:48px}.career-block .intern-title{height:auto;min-height:42px}.career-block .funding-value{min-height:42px}}
