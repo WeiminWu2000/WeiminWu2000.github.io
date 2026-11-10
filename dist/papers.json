@@ -93,7 +93,7 @@
     "id": 17,
     "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
     "authors": "Weimin Wu, Han Liu",
-    "url": "https://github.com/WeiminWu2000/SciMARS/blob/main/paper/SciMARS.pdf",
+    "url": "https://arxiv.org/abs/2611.12552",
     "year": "2026",
     "venue": "Preprint",
     "category": "biology",
@@ -101,7 +101,7 @@
     "image": "blog/assets/scimars/overview-20261108.png",
     "caption": "SciMARS adapts roles and coordination. SciMARS + Memory adds a shared evidence graph and independent memory-policy editor.",
     "imageAlt": "SciMARS overview with a shared evidence graph and separate role, coordination, and memory-policy editors.",
-    "imageSource": "https://github.com/WeiminWu2000/SciMARS/blob/main/paper/SciMARS.pdf",
+    "imageSource": "https://arxiv.org/abs/2611.12552",
     "code": "https://github.com/WeiminWu2000/SciMARS"
   },
   {
