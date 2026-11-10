@@ -53,5 +53,6 @@
 .quest-logo-crop{display:block;position:relative;width:132px;height:44px;overflow:hidden;flex-shrink:0}
 .quest-logo-crop .quest-logo{position:absolute;width:167.1px;height:75.2px;max-width:none;left:-20.9px;top:-16.3px;object-fit:contain}
 
-/* Center employer marks within each internship block. */
-.career-block .employer-logo-heading{justify-content:center}
+/* Left-align both marks and center their visible artwork vertically. */
+.career-block .employer-logo-heading{justify-content:flex-start;align-items:center}
+.career-block .nvidia-logo{transform:translateY(-5px)}
