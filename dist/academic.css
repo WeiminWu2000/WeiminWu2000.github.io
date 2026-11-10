@@ -57,10 +57,9 @@
 .career-block .employer-logo-heading{justify-content:flex-start;align-items:center}
 .career-block .nvidia-logo{transform:translateY(-5px)}
 
-/* Concise research-allocation block. */
-.funding-purpose{font-size:14px;font-weight:700;line-height:1.5;margin:0 0 10px}
-.funding-block .funding-amount{height:auto;line-height:1.2;margin:10px 0 20px}
-.funding-logo-link{display:flex;align-items:center;min-height:32px;margin:0 0 14px}
+/* Funding uses the same label, logo, headline, and detail rows as internships. */
 .nairr-logo{display:block;width:190px;max-width:100%;height:auto}
-.funding-id{font-size:12px;color:#666;margin:0;line-height:1.5}
-@media(max-width:600px){.funding-purpose,.funding-logo-link,.funding-id{grid-column:1/-1}.funding-block .funding-amount{margin:4px 0 10px}.funding-logo-link{margin:0 0 5px}}
+.funding-block .employer-logo-heading a{display:block;max-width:100%}
+.career-block .funding-value{font-size:28px;line-height:1.5;color:var(--accent)}
+.funding-id{font-size:11px;line-height:1.5;color:#666;margin:12px 0 0}
+@media(max-width:600px){.funding-id{grid-column:1/-1;margin:4px 0 0}}
