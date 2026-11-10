@@ -79,3 +79,5 @@
 .career-block .block-detail{grid-column:1;margin:0;line-height:1.55}
 @media(min-width:601px) and (max-width:1100px){.career-block{padding:12px;grid-template-rows:34px 54px 63px auto}.career-block .intern-title{font-size:13px}.career-block .funding-value{font-size:28px}}
 @media(max-width:600px){.career-block{padding:15px 17px;grid-template-rows:auto 48px auto auto;gap:9px}.career-block .employer-logo-heading{height:48px}.career-block .intern-title{height:auto;min-height:42px}.career-block .funding-value{min-height:42px}}
+
+.profile-contact .socials{flex-wrap:wrap;row-gap:8px}.profile-contact .socials a{padding-left:8px;padding-right:8px}
